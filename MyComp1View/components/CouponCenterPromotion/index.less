@@ -1,0 +1,136 @@
+@color-1: #fff;
+@color-2: #ff5000;
+@padding-md: 16px;
+@padding-sm: 12px;
+@padding-xss: 4px;
+
+.wrapper {
+  width: 366px;
+  padding: @padding-xss 2px 2px;
+  background-color: @color-1;
+}
+
+.couponCenterHeader {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2px;
+  margin-left: 2px;
+  padding: 10px @padding-md 15px;
+  border-radius: 13px;
+  background-image: url('https://weavefox.alipay.com/assets/e6a0f37b-2092-4c73-9b82-a266edb71f39.png');
+  background-size: cover;
+}
+
+.promotionTitle {
+  margin-left: 2px;
+  color: @color-1;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.promotionContentWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.promotionSection {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 6px 10px @padding-xss;
+  border-radius: 9px;
+  background-color: @color-1;
+}
+
+.promotionImageContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+}
+
+.promotionImage {
+  flex-shrink: 0;
+  width: 84px;
+  height: 76px;
+  border-radius: 9px;
+}
+
+.maxDiscountLabel {
+  margin-top: 2px;
+  margin-left: 2px;
+  white-space: nowrap;
+  color: @color-2;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.componentSharedEbc1 {
+  align-self: center;
+  margin-top: 2px;
+  color: @color-2;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.promotionItemWrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background-color: @color-1;
+}
+
+.promotionItemImageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.promotionItemImage {
+  flex-shrink: 0;
+  width: 76px;
+  height: 78px;
+  border-radius: 9px;
+}
+
+.bestBuyListLabel {
+  align-self: center;
+  margin-top: 2px;
+  white-space: nowrap;
+  color: @color-2;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.promotionOfferWrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 6px @padding-sm 5px;
+  border-radius: 10px;
+  background-color: @color-1;
+}
+
+.promotionOfferImageContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2px;
+}
+
+.promotionOfferImage {
+  flex-shrink: 0;
+  width: 76px;
+  height: 78px;
+  margin-left: 2px;
+  border-radius: 9px;
+}
+
+.officialDiscountLabel {
+  margin-top: 2px;
+  white-space: nowrap;
+  color: @color-2;
+  font-size: 13px;
+  font-weight: bold;
+}
